@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+       
+            <title>Meteorologia</title>
+            <meta charset="utf-8" />
+            <link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.css" />
+        
+    </head>
+    <body>
+        <!-- Aqui simplemente mostramos los datos en pantalla, cumpliendo así con los requerimientos del desafío. :) -->
+        <h2>Meteorologia</h2>
+                
+            <p>Ciudad: {{datos[0].ciudad}}</p>
+                           
+            <p>Temperatura (°): {{datos[0].temperatura}}</p>
+            
+            <p>Velocidad del viento (min): {{datos[0].viento_min}} km/h</p>
+            
+            <p>Velocidad del viento (max): {{datos[0].viento_max}} km/h</p>
+        
+            <p>Dirección del viento: {{datos[0].direccion}}</p>
+                              
+         
+    </body>
+    </html>
